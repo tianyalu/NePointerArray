@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		94D81954238298560042CDBA /* NePointerArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NePointerArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D81957238298560042CDBA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		94D8195F2382A83D0042CDBA /* array_pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = array_pointer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		94D8194B238298560042CDBA = {
 			isa = PBXGroup;
 			children = (
+				94D8195E2382A7EE0042CDBA /* show */,
 				94D81956238298560042CDBA /* NePointerArray */,
 				94D81955238298560042CDBA /* Products */,
 			);
@@ -60,6 +62,14 @@
 				94D81957238298560042CDBA /* main.cpp */,
 			);
 			path = NePointerArray;
+			sourceTree = "<group>";
+		};
+		94D8195E2382A7EE0042CDBA /* show */ = {
+			isa = PBXGroup;
+			children = (
+				94D8195F2382A83D0042CDBA /* array_pointer.png */,
+			);
+			path = show;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

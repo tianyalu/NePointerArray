@@ -1,29 +1,8 @@
-//
-//  main.cpp
-//  NePointerArray
-//
-//  Created by 天涯路 on 2019/11/18.
-//  Copyright © 2019年 天涯路. All rights reserved.
-//
-
-#include <iostream>
-void pointer();
-void pointerArray();
-void arrayPointer();
-
-//优先级： () > [] > *
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    
-    // pointer();
-    // pointerArray();
-    arrayPointer();
-    
-    system("pause");
-    return 0;
-}
-
+## NePointerArray 指针数组，数组指针
+**注意：**  
+优先级：() > [] > *
+### 1. 指针
+```android
 //指针
 void pointer() {
     int arr[] = {100, 200, 300};
@@ -37,8 +16,11 @@ void pointer() {
         printf("数组： %d\n", arr[i]);
     }
 }
+```
 
-//指针数组：是一个数组，里面存放多个指针
+### 2. 指针数组
+是一个数组，里面存放多个指针  
+```android 
 //int* p[n]
 void pointerArray() {
     int arr[] = {100, 200, 300};
@@ -52,8 +34,11 @@ void pointerArray() {
         printf("数组： %d\n", *p[i]);
     }
 }
+```
 
-//数组指针：指向一个一维数组的指针，若该一维数组长度为n,则指针+1时会跨越n个数据长度
+### 3. 数组指针
+指向一个一维数组的指针，若该一维数组长度为n,则指针+1时会跨越n个数据长度  
+```android
 //int (*p)[n]
 void arrayPointer() {
     int arr[3][4] = {
@@ -68,3 +53,5 @@ void arrayPointer() {
         printf("数组： %d\n", (*p)[i]);
     }
 }
+```
+![image](https://github.com/tianyalu/NePointerArray/blob/master/show/array_pointer.png)
