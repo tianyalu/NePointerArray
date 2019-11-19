@@ -2,7 +2,7 @@
 **注意：**  
 优先级：() > [] > *
 ### 1. 指针
-```android
+```c
 //指针
 void pointer() {
     int arr[] = {100, 200, 300};
@@ -20,7 +20,7 @@ void pointer() {
 
 ### 2. 指针数组
 是一个数组，里面存放多个指针  
-```android 
+```c 
 //int* p[n]
 void pointerArray() {
     int arr[] = {100, 200, 300};
@@ -38,7 +38,7 @@ void pointerArray() {
 
 ### 3. 数组指针
 指向一个一维数组的指针，若该一维数组长度为n,则指针+1时会跨越n个数据长度  
-```android
+```c
 //int (*p)[n]
 void arrayPointer() {
     int arr[3][4] = {
